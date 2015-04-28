@@ -113,6 +113,15 @@ There are several configuration options in casperjs-spider.  You can set them in
 - ```--load-plugins=false```
 - ```config.loadPlugins = 'false';```
 
+**username** *default=null*
+
+- Also defined as config.username in config.js.  Sets the username for HTTP Authentication.
+- ```--username=desiredUsername```
+
+**password** *default=null*
+
+- Also defined as config.password in config.js.  Sets the password for HTTP Authentication.
+- ```--password=desiredPassword```
 
 
 ### Contributing
