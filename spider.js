@@ -169,6 +169,8 @@
     spider(dataObj.start);
   });
 
+  casper.setHttpAuth(config.username, config.password);
+
   casper.run();
 
   // if console error exists

@@ -38,9 +38,11 @@ var config = (function(window,document,undefined){
   // override userAgent if necessary
   config.userAgent = null;
 
+  // Http Auth 
+ config.username = null;
+ config.password = null;
 
   return config;
-
 
 })(this, this.document);
 
